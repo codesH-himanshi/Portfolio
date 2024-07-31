@@ -1,0 +1,71 @@
+body {
+    background-color: #F7FBFC;
+    color: #769FCD;
+}
+
+header {
+    color: #AAAAAA;
+}
+
+nav {
+    background-color: #F7FBFC;
+}
+
+.menu-icon div{
+    background-color: #AAAAAA;
+}
+
+.overlay {
+    background-color:#D6E6F2;
+}
+
+.overlay-menu a {
+    color: #AAAAAA;
+    background-color: #FFE3E3;
+}
+
+.overlay-menu a:hover {
+    background-color: #C9CCD5;
+}
+
+.contact_form {
+    background-color: #DA7F8F;
+}
+
+nav ul li a {
+    color: #93B5C6;
+}
+
+button {
+    background: #FFE3E3; 
+    color: #93B5C6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+button:hover {
+    background: #C9CCD5 ; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.download-button {
+    color: #DA7F8F;
+    background-color: #ACB1D6;
+}
+
+.download-button:hover {
+    background-color: #C9CCD5;
+}
+
+.end {
+    background-color:#DA7F8F;
+    color: #FAF3F3;
+}
+
+.background-shape {
+    background: #da7f904b;
+}
+
+.theme-toggle-button {
+    background-color: #AD88C6;
+    color: #18122B;
+}

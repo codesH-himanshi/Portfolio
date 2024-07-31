@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMANSHI | PORTFOLIO</title>
+    <link rel="stylesheet" href="stylesfor.css">
+    <link id="theme-stylesheet" rel="stylesheet" href="dark-theme.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="overlay" id="overlay">
+                <div class="overlay-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="skills.html">Skills & Abilities</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contactUS.html">Contact ME</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h1 style="font-size: 3vw;">
+                    Contact ME |PORTFOLIO
+                </h1>
+            </div>
+            <button id="theme-toggle" class="theme-toggle-button">Dark Mode</button>
+        </nav>
+        <script src="scripts.js"></script>
+    </header>
+    <main>
+        <section class="container">
+            <div class="contact" style="font-size: 30px;">
+                <ul>
+                    <li style="font-weight: bold;font-size: 60px;">Why Reach Out?
+                        <hr>
+                    </li>
+
+                    <li>Innovative Solutions- Let’s turn your ideas into eye-catching websites.</li>
+                    <li>Timely Delivery- Get your project done on time, every time.</li>
+                    <li>Creative Collaboration- Work with someone who’s passionate about bringing visions to life.</li>
+                </ul>
+
+                <br>
+                <p style="font-weight: bold;font-size:50px; ">Ready to start an exciting journey? Hit me up, and let’s
+                    turn your dreams into reality! 🌟</p>
+                Please fill the form -
+
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="flex-container">
+                <div style="font-size: 20px;">
+                    <div class="contact">
+                        <div class="contact_form">
+                        <form action="submit_appointment.php" method="post">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required><br><br>
+
+                            <label for="mobile">Mobile No.:</label>
+                            <input type="tel" id="mobile" name="mobile" required><br><br>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br><br>
+
+                            <label for="description">Description of Project:</label><br><br>
+                            <textarea id="description" name="description" rows="8" cols="50"
+                                required></textarea><br><br>
+
+                            <button type="submit">Send Magic</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="Let_connect" style="font-size: 20px;">
+            Let's connect on -
+
+            <a href="https://www.linkedin.com/in/442-himanshi/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"
+                    style="width:24px;height:24px;"></a>
+            <a href="https://www.instagram.com/himanshi_.h_?igsh=MXhvbG9saWN0bDhlNg==" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"
+                    style="width:24px;height:24px;"></a>
+            <a href="https://github.com/codesH-himanshi" target="_blank">
+                <img id="theme-image" src="github-mark.png" alt="GitHub" style="width:auto;height:24px;"></a>
+
+            <p style="font-size: 10px;">&copy; 2024 Himanshi</p>
+        </div>
+        <script src="theme-toggle.js"></script>
+    </main>
+    <footer class="end">
+        <p>&copy;Himanshi | Email: himanshikashyap442@gmail.com</p>
+        <div>
+    </footer>
+
+</body>
+
+</html>

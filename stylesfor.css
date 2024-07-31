@@ -1,0 +1,300 @@
+body {
+    font-family: Calibri, sans-serif;
+    font: 1.02em;
+    margin: 20px;
+    padding: 0;
+    
+}
+
+header {
+    padding: 1em 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+section {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 6vw;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    height: 35px;
+    z-index: 2;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 35px;
+    justify-content: space-between;
+}
+
+.menu-icon div {
+    width: 100%;
+    height: 4px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.menu-icon.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-icon.change .bar2 {
+    opacity: 0;
+}
+
+.menu-icon.change .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+}
+
+.overlay.show {
+    display: flex;
+}
+
+.overlay-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.overlay-menu a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.overlay-menu hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 10px 0;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-container>div {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+.theme-toggle-button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.theme-toggle-button.dark-mode {
+    background-color: #DA7F8F;
+    color: #769FCD;
+}
+
+.theme-toggle-button.dark-mode:hover {
+    background-color: #666;
+}
+
+.theme-toggle-button:hover {
+    background-color: #0b7dda;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 200px;
+}
+
+.section {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.rpvg {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    flex-wrap: nowrap;
+    font-size: 25px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+
+.rpvd {
+    display: flex;
+    flex-direction: column;
+}
+
+.Lets_connect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+
+input[type="text"], 
+input[type="tel"],
+input[type="email"] {
+    width: 60%; 
+    height: 40px; 
+    font-size: 16px; 
+    padding: 8px; 
+    box-sizing: border-box; 
+}
+
+textarea {
+    width: 100%; 
+    height: 100px; 
+    font-size: 16px; 
+    padding: 8px; 
+    box-sizing: border-box; 
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-button:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (min-width: 80rem) {
+    .container {
+        margin: 1em 2em;
+        column-count: 3;
+        column-width: 10em;
+    }
+}
+
+.end {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.background-shape {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 20%;
+    left: 30%;
+    animation: moveBackground 1s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% { transform: translate(0, 0); }
+    50% { transform: translate(50px, 50px); }
+    100% { transform: translate(0, 0); }
+}
+
+
