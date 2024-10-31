@@ -4,9 +4,9 @@ Welcome to my portfolio! I'm Himanshi, a passionate student pursuing my graduati
 Explore my work, learn more about my skills, and connect with me.
 
 **Open your browser and visit:**
-   ```
-   https://codesh-himanshi.github.io/Portfolio/projects.html
-   ```
+
+[Visit the live website](https://codesh-himanshi.github.io/Portfolio/index.html)
+
 
 🚀 About Me
 
@@ -22,11 +22,10 @@ I strive to build web solutions that not only meet client requirements but also 
 
  1. [Task Management web]
  Description: A brief description of the project, its purpose, and key features.
-   ```
-   https://codesh-himanshi.github.io/project-taskManagementweb/
-   ```
 
-- Tech Stack: List of technologies used
+[Visit the live website](https://codesh-himanshi.github.io/project-taskManagementweb/) 
+
+
 - GitHub Repo: [Link to GitHub repository](https://github.com/codesH-himanshi/project-taskManagementweb)
 
 ## 🌱 Let's Collaborate
